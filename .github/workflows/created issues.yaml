@@ -11,7 +11,7 @@ jobs:
         with:
           payload: |
             {
-              "text": "Created Issues",
+              "text": "Created Issues"
             }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
