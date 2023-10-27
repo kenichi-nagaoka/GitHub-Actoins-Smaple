@@ -3,7 +3,7 @@ on: issues
 
 jobs:
   build:
-    name: Greeting
+    name: Slack Notification
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World!!"
