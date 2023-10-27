@@ -2,9 +2,11 @@ name: Created Issues
 on: issues
 
 jobs:
-  build:
-    name: Slack Notification
+  Slack-Notification:
+    name: Send GitHub Action trigger data to Slack workflow
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World!!"
-
+      - name: slack
+        uses: slackapi/slack-github-action@v1.24.0
+        env:
+          SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
