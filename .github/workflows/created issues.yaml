@@ -2,7 +2,7 @@ name: Created Issues
 on: issues
 
 jobs:
-  build:
+  Slack-Notification:
     runs-on: ubuntu-latest
     steps:
       - name: Send GitHub Action trigger data to Slack workflow
