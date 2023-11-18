@@ -3,7 +3,7 @@ on: issues
 
 jobs:
   Slack-Notification:
-    name: aaaaaa
+    name: Send-Notification
     runs-on: ubuntu-latest
     steps:
       - name: Send GitHub Action trigger data to Slack workflow
