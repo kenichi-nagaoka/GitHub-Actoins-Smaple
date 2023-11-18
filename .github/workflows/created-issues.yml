@@ -1,5 +1,7 @@
 name: Created Issues
-on: issues
+on:
+  issues:
+    types: [deleted]
 
 jobs:
   Slack-Notification:
